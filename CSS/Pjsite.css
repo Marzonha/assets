@@ -28,7 +28,7 @@ body{
     position: absolute ;
     content: "";
     background: linear-gradient(transparent, black);
-
+    
 }
 
 .menu-bg{
@@ -62,8 +62,8 @@ body{
     border: 2px solid ;
     border-radius: 20px;
     margin-left: 10px;
-
-
+    
+    
 }
 .menu-nav a:hover{
     color: rgb(0, 255, 64);
@@ -79,17 +79,164 @@ body{
     font-style: oblique;
     font-size: 40px;
 }
-.bg{
+.preco{
     display: flex;
+    background: #80a7fa;
+    color: rgb(255, 255, 255);
+
+}
+.preco-item{
+    flex: 260px;
+    border: 4px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+
+
+  
+}
+.preco-item h2{
+    font-size: 3em;
+    color: #d14949;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.preco-item span{
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0 5px 0;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    font-size: 5em;
+}
+.preco-item sup{
+    font-size: 1.5rem;
+}
+.preco-item ul{
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1.25em;
+    font-style: italic;
+    color: rgb(255, 251, 25);
+}
+.preco-item li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.preco-item a {
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;  
+    border: 2px solid;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.25em;
+    text-align: center;
+    transition: 0.3s;
+}
+.preco-item a:hover{
+    color:aqua ;
+}
+
+
+.bg{
     background-color: rgb(69, 205, 247);
     padding: 10px;
     font-family: cursive;
     font-style: oblique;
-
+    border: 2px solid ;
+    border-radius: 20px;
+    
 }
 .sprInfo{
     display: flex;
-    align-items: space-between;
+    justify-content: center;
+    font-family: cursive;
+    font-style: oblique;
     gap: 20px;
     color: #fff;
+    margin: 10px;
+}
+.Imges{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.nwsletter{
+    background: #f7f7f7;
+    padding: 60px calc((100% - 960px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.nwsletter-Info p{
+    flex: 260px;
+    margin: 0 10px;
+}
+.nwsletter-Info h1{
+   font-size: 3em;
+   background-color: rgb(173, 170, 170);
+}
+.nwsletter-Info p{
+    font-size: 1.25em;
+    font-style:italic;
+    max-width: 240px;
+    color: snow;
+    margin-bottom: 10px;
+}
+.nwsletter-Info p{
+    flex: 260px;
+    margin: 0 10px;
+}
+.nwsletter-Info h1{
+   font-size: 3em;
+   background-color: var (--btgray) ;
+}
+.nwsletter-Info p{
+    font-size: 1.25em;
+    font-style:italic;
+    max-width: 240px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.nwsletter-form{
+    flex: 260px;
+    margin: 10px;
+    align-self: center;
+    display: flex;
+}
+.nwsletter-form input{
+    flex: 260px ;
+    font-size: 1.25em;
+    color: #c7c7c7;
+    font-style: italic;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    border: 2px solid #2c70ff;
+    background: transparent;
+    width: 50px;
+    height: 400px;
+}
+.nwsletter-form button{
+    flex: 200px;
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #2c70ff;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
